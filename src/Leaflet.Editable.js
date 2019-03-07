@@ -211,7 +211,7 @@
             // Hack: force map not to listen to other layers events while drawing.
             if (!this._oldTargets) {
                 this._oldTargets = this.map._targets;
-                this.map._targets = {};
+                // this.map._targets = {};
             }
         },
 
